@@ -1,14 +1,10 @@
 # Telco Customer Churn Analysis
 
-An exploratory data analysis project that investigates customer churn
-in a telecommunications company using Python, SQL, and MySQL.
+An exploratory data analysis project that investigates customer churn in a telecommunications company using Python, SQL, and MySQL.
 
 ## Project Overview
 
-Customer churn is one of the main challenges faced by telecommunication
-companies. This project analyzes customer information, services,
-contracts, charges, and churn status to identify patterns related to
-customer attrition.
+Customer churn is one of the main challenges faced by telecommunication companies. This project analyzes customer information, services, contracts, charges, and churn status to identify patterns related to customer attrition.
 
 ## Project Objectives
 
@@ -22,8 +18,7 @@ customer attrition.
 
 ## Dataset
 
-The dataset contains information about 7,043 customers and 21 features,
-including:
+The dataset contains information about 7,043 customers and 21 features, including:
 
 - Customer demographics
 - Phone and internet services
@@ -50,6 +45,7 @@ including:
 |---|---|
 | `project1.ipynb` | Data cleaning and exploratory data analysis |
 | `Telco_Customer_Churn_Queries.sql` | Database creation and SQL analysis queries |
+| `ERD.sql` | SQL script for creating the normalized database schema |
 | `ERD.png` | Entity Relationship Diagram |
 
 ## Data Cleaning
@@ -81,17 +77,27 @@ The project includes analysis of:
 
 The database schema was designed using MySQL Workbench.
 
+The database separates:
+
+- Customer information
+- Contracts and billing
+- Customer services
+- Churn status
+
+The schema files are:
+
+- `ERD.sql`: SQL script for creating the database schema.
+- `ERD.png`: Entity Relationship Diagram.
+
+To create the database, open `ERD.sql` in MySQL Workbench and run it.
+
 ![Entity Relationship Diagram](ERD.png)
 
-*** Monthly Charges Distribution by Churn Status
+## Visualizations
 
-<img width="691" height="470" alt="image" src="https://github.com/user-attachments/assets/d61ca89a-8155-444c-9417-4468dc740706" />
+### Churn Rate by Contract Type
 
-## How to Run the Project
+If you upload the chart inside an `images` folder, use:
 
-### Run the Python Notebook
-
-Install the required libraries:
-
-```bash
-pip install pandas numpy matplotlib seaborn jupyter
+```markdown
+![Churn Rate by Contract Type](images/churn_by_contract.png)
