@@ -11,10 +11,13 @@ Customer churn is one of the main challenges faced by telecommunication companie
 - Calculate the overall customer churn rate.
 - Analyze churn by contract type.
 - Compare monthly charges between churned and retained customers.
-- Study the effect of customer tenure on churn.
+- Study the relationship between customer tenure and churn.
 - Analyze churn by payment method and internet service.
-- Examine whether technical support and online security are related to churn.
-- Create SQL queries for business analysis.
+- Examine whether technical support and online security are associated with lower churn.
+- Clean and prepare the dataset using Python.
+- Create visualizations using Python, Matplotlib, and Seaborn.
+- Design a relational database schema using MySQL.
+- Write SQL queries to answer business questions related to customer churn.
 
 ## Dataset
 
