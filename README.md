@@ -95,9 +95,5 @@ To create the database, open `ERD.sql` in MySQL Workbench and run it.
 
 ## Visualizations
 
-### Churn Rate by Contract Type
-
-If you upload the chart inside an `images` folder, use:
-
-```markdown
-![Churn Rate by Contract Type](images/churn_by_contract.png)
+*** Monthly Charges Distribution by Churn Status
+<img width="691" height="470" alt="image" src="https://github.com/user-attachments/assets/9c33d22a-6a8f-46f9-98b8-7cb0a4ae6b0c" />
